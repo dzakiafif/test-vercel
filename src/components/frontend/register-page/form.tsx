@@ -16,7 +16,7 @@ const FormRegister = () => {
 
   const register = async () => {
     try {
-      const data = await registerService.post({ fullname, email, password, retypepassword, address});
+      const data = await registerService.post({ fullname, email, password, retypepassword, phoneNumber, address});
       console.log(data);
       history.push(USERROUTES.LOGIN);
     } catch (err) {
