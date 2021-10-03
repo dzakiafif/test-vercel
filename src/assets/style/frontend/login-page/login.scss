@@ -1,0 +1,84 @@
+.login {
+    &__row-full {
+        height: 100vh;
+    }
+
+    &__column--left {
+        background-color: #FFFF;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__column--right {
+        background-color: #FDAF2F;
+        display: inline-block;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &__login-form-frame{
+        width: 90%;
+        display: inline-grid;
+    }
+
+    &__login-form-title{
+        display:flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 5vh;
+    }
+
+    &__login-form-subtitle {
+        display:flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-top:1vh;
+        margin-bottom: 2vh;
+    }
+
+    &__login-form-input {
+        margin-bottom: 3vh;
+    }
+
+    &__login-form-invitesignup {
+        text-align: center;
+    }
+
+    &__background-logo-frame {
+        margin-top: 10vh;
+        width: 270px; 
+        height: 270px; 
+        z-index: 1;
+        position: relative;
+        display: inline-grid;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+
+        > img {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            z-index: 3;
+        }
+    }
+
+    &__background-logo-circle {
+        background-color: #FFFF;
+        width: 253px; 
+        height: 253px; 
+        border-radius: 200px;
+        position: absolute;
+        bottom: 0;
+        z-index: 2;
+        justify-self: center;
+        align-self: center;
+      }
+    
+    &__reduce-width {
+        width: 65%;
+      }
+}
