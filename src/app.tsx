@@ -11,13 +11,13 @@ const App = () => {
     <Router>
       <Switch>
         <Route exact path={USERROUTES.ROOT}>
-          <LoginPage />
+          <HomePage />
         </Route>
         <Route exact path={USERROUTES.REGISTER}>
           <RegisterPage />
         </Route>
-        <Route exact path={USERROUTES.HOMEPAGE}>
-          <HomePage />
+        <Route exact path={USERROUTES.LOGIN}>
+          <LoginPage />
         </Route>
       </Switch>
     </Router>

@@ -1,4 +1,3 @@
-import Cookies from 'js-cookie';
 import { Input } from 'components';
 import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
@@ -7,7 +6,6 @@ import { USERROUTES } from 'routes';
 
 const FormLogin = () => {
   const history = useHistory();
-  const dateAddOneHour = new Date(Date.now() + 3600000);
   const authBackendService = new AuthBackendService();
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
@@ -15,12 +13,7 @@ const FormLogin = () => {
   const login = async () => {
     try {
       const result: any = await authBackendService.post({ email, password });
-      if (result.data.role === 'SUPER USER') {
-        Cookies.set('access_token_admin', result.data.token, {
-          expires: dateAddOneHour,
-        });
-        history.push(USERROUTES.HOMEPAGE);
-      }
+      console.log(result);
     } catch (err) {
       console.log(err);
     }
