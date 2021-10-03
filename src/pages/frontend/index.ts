@@ -1,9 +1,9 @@
-import LandingPage from './landing-page';
+import HomePage from './homepage';
 import LoginPage from './login-page';
 import RegisterPage from './register-page';
 
 export {
-  LandingPage,
+  HomePage,
   LoginPage,
   RegisterPage,
 };

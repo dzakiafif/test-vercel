@@ -3,6 +3,7 @@ import { USERROUTES } from 'routes';
 import {
   LoginPage,
   RegisterPage,
+  HomePage
 } from 'pages';
 
 const App = () => {
@@ -14,6 +15,9 @@ const App = () => {
         </Route>
         <Route exact path={USERROUTES.REGISTER}>
           <RegisterPage />
+        </Route>
+        <Route exact path={USERROUTES.HOMEPAGE}>
+          <HomePage />
         </Route>
       </Switch>
     </Router>

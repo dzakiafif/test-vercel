@@ -29,6 +29,9 @@ const FormLogin = () => {
   return (
     <>
       <div className="form-group">
+        <label className="headings4--semibold font-color--orange login__login-form-subtitle">
+          Email Address
+        </label>
         <Input
           className="form-control form-control-user login__login-form-input"
           id="exampleInputEmail"
@@ -39,6 +42,9 @@ const FormLogin = () => {
         />
       </div>
       <div className="form-group">
+        <label className="headings4--semibold font-color--orange login__login-form-subtitle">
+          Password
+        </label>
         <Input
           className="form-control form-control-user login__login-form-input"
           id="exampleInputPassword"
@@ -48,12 +54,15 @@ const FormLogin = () => {
           onChange={(value) => setPassword(value)}
         />
       </div>
-      <input
-        type="submit"
-        value="Login"
-        className="btn btn-primary btn-user btn-block"
-        onClick={login}
-      />
+      <input type="submit" value="SIGN IN" className="btn btnsubmit" onClick={login} />
+      <div className="login__login-form-invitesignup">
+        <span className="headings4--semibold">Dont have an account yet ?</span>{' '}
+        <a href="/register">
+          <span className="headings4--semibold font-color--orange">
+            Create an account
+          </span>
+        </a>
+      </div>
     </>
   );
 };

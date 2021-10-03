@@ -1,11 +1,11 @@
 import {
   LoginPage,
-  LandingPage,
+  HomePage,
   RegisterPage,
 } from './frontend';
 
 export {
   LoginPage,
-  LandingPage,
+  HomePage,
   RegisterPage
 };
