@@ -49,7 +49,7 @@ const FormLogin = () => {
       </div>
       <input type="submit" value="SIGN IN" className="btn btnsubmit" onClick={login} />
       <div className="login__login-form-invitesignup">
-        <span className="headings4--semibold">Dont have an account yet ?</span>{' '}
+        <span className="headings4--light">Dont have an account yet ?</span>{' '}
         <a href="/register">
           <span className="headings4--semibold font-color--orange">
             Create an account

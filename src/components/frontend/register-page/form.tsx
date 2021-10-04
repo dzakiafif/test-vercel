@@ -108,8 +108,8 @@ const FormRegister = () => {
       </div>
       <input type="submit" value="SIGN UP" className="btn btnsubmit" onClick={register} />
       <div className="register__register-form-invitesignin">
-        <span className="headings4--semibold">Already have an account ?</span>{' '}
-        <a href="/">
+        <span className="headings4--regular">Already have an account ?</span>{' '}
+        <a href="/login">
           <span className="headings4--semibold font-color--orange">
             Sign in now
           </span>

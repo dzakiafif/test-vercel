@@ -28,15 +28,27 @@ body {
     font-family: 'Poppins', sans-serif;
     width:100%;
   }
-  .headings2 {
-    font-weight: bold;
-    font-size: 2rem;
+  .headings2--regular {
+    font-weight: normal;
+    font-size: 2.5rem;
     font-family: 'Quicksand', sans-serif;
+    width:100%;
+  }
+  .headings2--bold {
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'Quicksand', sans-serif;
+    width:100%;
+  }
+  .headings3--light {
+    font-weight: 300 ;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
     width:100%;
   }
   .headings3--regular {
     font-weight: normal ;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     width:100%;
   }
@@ -56,6 +68,12 @@ body {
   
   .headings4--semibold {
     font-weight: 600;
+    font-size: 0.875rem;
+    font-family: 'Poppins', sans-serif;
+    width:100%;
+  }
+  .headings4--light {
+    font-weight: 300;
     font-size: 0.875rem;
     font-family: 'Poppins', sans-serif;
     width:100%;

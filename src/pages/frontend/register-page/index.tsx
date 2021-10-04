@@ -6,9 +6,9 @@ const RegisterPage = () => {
         <div className="register__register-form-frame col-4"></div>
         <div className="register__register-form-frame col-4">
           <div className="register__register-form-title">
-            <span className="headings2 font-color--orange">Sign Up</span>
-            <span className="headings3--regular">
-              Daftar dan bergabung dengan kami
+            <span className="headings2--bold font-color--orange">Sign Up</span>
+            <span className="headings3--light">
+              Register and join with us
             </span>
           </div>
           <div className="register__reduce-width">

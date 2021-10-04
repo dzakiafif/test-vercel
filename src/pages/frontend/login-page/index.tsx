@@ -8,9 +8,9 @@ const LoginPage = () => {
         <div className="login__column--left col-5">
           <div className="login__login-form-frame">
             <div className="login__login-form-title">
-              <span className="headings2 font-color--orange">Sign In</span>
-              <span className="headings3--regular">
-                Masuk ke aplikasi untuk berbelanja buku
+              <span className="headings2--bold font-color--orange">Sign In</span>
+              <span className="headings3--light">
+                Log in to bibliosell to get start shopping books
               </span>
             </div>
             <div className="login__reduce-width">
@@ -25,16 +25,16 @@ const LoginPage = () => {
             <img src={LoginImg} alt="ini gambar"/>
           </div>
           <div>
-            <span className="headings2 font-color--white">
+            <span className="headings2--bold font-color--white">
               Shop Now,
-              <br />
+              <br/>
               We’ll deliver it to you
             </span>
-            <br />
-            <span className="headings3--regular font-color--white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              <br />
-              sed do eiusmod tempor
+            <br/>
+            <span className="headings3--light font-color--white">
+              We always guarantee that the book you receive
+              <br/>
+              meets your expectations
             </span>
           </div>
         </div>
