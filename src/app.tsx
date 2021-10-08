@@ -1,9 +1,10 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { USERROUTES } from 'routes';
+import { ADMINROUTES, USERROUTES } from 'routes';
 import {
   LoginPage,
   RegisterPage,
-  HomePage
+  HomePage,
+  DashboardPage
 } from 'pages';
 
 const App = () => {
@@ -18,6 +19,10 @@ const App = () => {
         </Route>
         <Route exact path={USERROUTES.LOGIN}>
           <LoginPage />
+        </Route>
+
+        <Route exact path={ADMINROUTES.ROOT}>
+          <DashboardPage />
         </Route>
       </Switch>
     </Router>

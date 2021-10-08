@@ -4,8 +4,13 @@ import {
   RegisterPage,
 } from './frontend';
 
+import {
+  DashboardPage
+}from './backend';
+
 export {
   LoginPage,
   HomePage,
-  RegisterPage
+  RegisterPage,
+  DashboardPage
 };
