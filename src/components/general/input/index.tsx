@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import { FC, HTMLInputTypeAttribute } from 'react';
 
 interface InputProps {
-  value: string;
+  value?: string;
   className?: string;
   placeholder?: string;
   id?: string;

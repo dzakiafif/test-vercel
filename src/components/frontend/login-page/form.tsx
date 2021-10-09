@@ -1,11 +1,11 @@
 import { Input } from 'components';
 import { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+// import { useHistory } from 'react-router-dom';
 import AuthBackendService from 'services/frontend/login';
-import { USERROUTES } from 'routes';
+// import { USERROUTES } from 'routes';
 
 const FormLogin = () => {
-  const history = useHistory();
+  // const history = useHistory();
   const authBackendService = new AuthBackendService();
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');

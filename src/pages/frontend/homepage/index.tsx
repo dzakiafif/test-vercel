@@ -18,7 +18,7 @@ const HomePage = () => {
       <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand navbar-each-section" 
-           href="#"><img src={LogoCompany} alt="ini gambar logo company"/>
+           href="/#"><img src={LogoCompany} alt="ini gambar logo company"/>
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -64,7 +64,7 @@ const HomePage = () => {
               </span>
               <br/>
               <span>
-                <a href="#" className="btn btnsubmit--smallsized">Get Started</a>
+                <a href="/#" className="btn btnsubmit--smallsized">Get Started</a>
               </span>
             </div>
             <div className="homepage-section1__subdescription-frame">
@@ -99,13 +99,13 @@ const HomePage = () => {
                 <div className="homepage-section1__book-image-circle">
                 </div>
                   <div className="homepage-section1__dotted-squares--above">
-                    <img src={DottedSquare}/>
+                    <img src={DottedSquare} alt="gambar dotted"/>
                   </div>
                   <div className="homepage-section1__book-image">
-                    <img src={BookImage}/>
+                    <img src={BookImage} alt="gambar buku"/>
                   </div>
                   <div className="homepage-section1__dotted-squares--below">
-                    <img src={DottedSquare}/>
+                    <img src={DottedSquare} alt="gambar dotted 2"/>
                   </div>
             </div>
           </div>
@@ -234,7 +234,7 @@ const HomePage = () => {
                   Lorem ipsum dolor sit amet, consectetur 
                 </span>
                 <span>
-                  <a href="#" className="btn btnsubmit--smallsized">Get Started</a>
+                  <a href="/#" className="btn btnsubmit--smallsized">Get Started</a>
                 </span>
             </div>
           </div>

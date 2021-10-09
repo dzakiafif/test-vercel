@@ -4,8 +4,10 @@ import {
   LoginPage,
   RegisterPage,
   HomePage,
-  DashboardPage
+  DashboardPage,
+  AdminLoginPage,
 } from 'pages';
+import { AppBackend } from 'appBackend';
 
 const App = () => {
   return (
@@ -21,9 +23,16 @@ const App = () => {
           <LoginPage />
         </Route>
 
-        <Route exact path={ADMINROUTES.ROOT}>
-          <DashboardPage />
+        <Route exact path={ADMINROUTES.LOGIN}>
+          <AdminLoginPage />
         </Route>
+
+        <Route exact path={ADMINROUTES.DASHBOARD}>
+          <AppBackend>
+            <DashboardPage />
+          </AppBackend>
+        </Route>
+
       </Switch>
     </Router>
   );

@@ -5,12 +5,14 @@ import {
 } from './frontend';
 
 import {
-  DashboardPage
+  DashboardPage,
+  AdminLoginPage,
 }from './backend';
 
 export {
   LoginPage,
   HomePage,
   RegisterPage,
-  DashboardPage
+  DashboardPage,
+  AdminLoginPage,
 };

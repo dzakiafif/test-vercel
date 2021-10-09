@@ -10,5 +10,6 @@ export const USERROUTES = {
 };
 
 export const ADMINROUTES = {
-  ROOT : '/admin'
+  LOGIN: '/admin/login',
+  DASHBOARD : '/admin/dashboard'
 }
