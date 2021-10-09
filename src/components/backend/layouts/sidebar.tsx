@@ -14,9 +14,7 @@ const sidebar = () => {
           <Link to={ADMINROUTES.CATEGORY_LIST} className="nav-link"><span>Category</span></Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/#">
-            <span>Tables</span>
-          </a>
+          <Link to={ADMINROUTES.PRODUCT_LIST} className="nav-link"><span>Product</span></Link>
         </li>
       </ul>
   );
