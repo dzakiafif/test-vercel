@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { ADMINROUTES } from "routes";
+
 const sidebar = () => {
   return (
       <ul className="sidebar navbar-nav">
@@ -7,10 +10,11 @@ const sidebar = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a
+          <Link to={ADMINROUTES.USER_CREATE} className="nav-link"><span>User</span></Link>
+          {/* <a
             className="nav-link " href="/#">
             <span>Pages</span>
-          </a>
+          </a> */}
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/#">

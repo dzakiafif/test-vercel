@@ -7,6 +7,7 @@ import {
 import {
   DashboardPage,
   AdminLoginPage,
+  CreateUserPage,
 }from './backend';
 
 export {
@@ -15,4 +16,5 @@ export {
   RegisterPage,
   DashboardPage,
   AdminLoginPage,
+  CreateUserPage,
 };

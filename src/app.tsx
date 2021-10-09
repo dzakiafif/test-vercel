@@ -6,6 +6,7 @@ import {
   HomePage,
   DashboardPage,
   AdminLoginPage,
+  CreateUserPage,
 } from 'pages';
 import { AppBackend } from 'appBackend';
 
@@ -32,7 +33,11 @@ const App = () => {
             <DashboardPage />
           </AppBackend>
         </Route>
-
+        <Route exact path={ADMINROUTES.USER_CREATE}>
+          <AppBackend>
+            <CreateUserPage />
+          </AppBackend>
+        </Route>
       </Switch>
     </Router>
   );

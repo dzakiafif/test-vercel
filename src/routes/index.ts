@@ -11,5 +11,7 @@ export const USERROUTES = {
 
 export const ADMINROUTES = {
   LOGIN: '/admin/login',
-  DASHBOARD : '/admin/dashboard'
+  DASHBOARD : '/admin/dashboard',
+  USER_CREATE: '/admin/create-user',
+  USER_LIST: '/admin/list-user'
 }
