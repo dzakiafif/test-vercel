@@ -20,4 +20,8 @@ export const ADMINROUTES = {
   PRODUCT_LIST: '/admin/list-product',
   PRODUCT_UPDATE: `/admin/update-product/${RouteParams.Id}`,
   PRODUCT_DELETE: `/admin/delete-product/${RouteParams.Id}`,
+  CATEGORY_CREATE: '/admin/create-category',
+  CATEGORY_LIST: '/admin/list-category',
+  CATEGORY_UPDATE: `/admin/update-category/${RouteParams.Id}`,
+  CATEGORY_DELETE: `/admin/delete-category/${RouteParams.Id}`
 }

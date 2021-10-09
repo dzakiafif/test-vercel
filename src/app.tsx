@@ -12,6 +12,9 @@ import {
   CreateProductPage,
   ListProductPage,
   UpdateProductPage,
+  CreateCategoryPage,
+  ListCategoryPage,
+  UpdateCategoryPage,
 } from 'pages';
 import { AppBackend } from 'appBackend';
 
@@ -71,6 +74,24 @@ const App = () => {
         <Route exact path={ADMINROUTES.PRODUCT_UPDATE}>
           <AppBackend>
             <UpdateProductPage />
+          </AppBackend>
+        </Route>
+
+        <Route exact path={ADMINROUTES.CATEGORY_CREATE}>
+          <AppBackend>
+            <CreateCategoryPage />
+          </AppBackend>
+        </Route>
+
+        <Route exact path={ADMINROUTES.CATEGORY_LIST}>
+          <AppBackend>
+            <ListCategoryPage />
+          </AppBackend>
+        </Route>
+
+        <Route exact path={ADMINROUTES.CATEGORY_UPDATE}>
+          <AppBackend>
+            <UpdateCategoryPage />
           </AppBackend>
         </Route>
 

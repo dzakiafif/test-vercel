@@ -6,6 +6,9 @@ import UpdateUserPage from './user/update-user';
 import CreateProductPage from './product/create-product';
 import UpdateProductPage from './product/update-product';
 import ListProductPage from './product/list-product';
+import CreateCategoryPage from './category/create-category';
+import ListCategoryPage from './category/list-category';
+import UpdateCategoryPage from './category/update-category';
 
 export {
   DashboardPage,
@@ -16,4 +19,7 @@ export {
   CreateProductPage,
   UpdateProductPage,
   ListProductPage,
+  CreateCategoryPage,
+  ListCategoryPage,
+  UpdateCategoryPage,
 };

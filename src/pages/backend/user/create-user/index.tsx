@@ -93,11 +93,9 @@ const CreateUserPage = () => {
             />
             <label htmlFor="inputPhoneNumber">Phone Number</label>
           </div>
+          <div className="py-3">
+          <input type="submit" className="btn btn-primary" onClick={create} />
         </div>
-        <div className="card-footer py-3">
-              <div className="small">
-                  <input type="submit" className="btn btn-primary" onClick={create} />
-              </div>
         </div>
       </div>
     </div>

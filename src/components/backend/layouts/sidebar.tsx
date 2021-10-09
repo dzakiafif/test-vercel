@@ -5,21 +5,13 @@ const sidebar = () => {
   return (
       <ul className="sidebar navbar-nav">
         <li className="nav-item active">
-          <a className="nav-link" href="/#">
-            <span>Dashboard</span>
-          </a>
+          <Link to={ADMINROUTES.DASHBOARD} className="nav-link"><span>Dashboard</span></Link>
         </li>
         <li className="nav-item">
           <Link to={ADMINROUTES.USER_LIST} className="nav-link"><span>User</span></Link>
-          {/* <a
-            className="nav-link " href="/#">
-            <span>Pages</span>
-          </a> */}
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/#">
-            <span>Charts</span>
-          </a>
+          <Link to={ADMINROUTES.CATEGORY_LIST} className="nav-link"><span>Category</span></Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/#">
