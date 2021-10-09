@@ -8,6 +8,11 @@ import {
   DashboardPage,
   AdminLoginPage,
   CreateUserPage,
+  ListUserPage,
+  UpdateUserPage,
+  CreateProductPage,
+  ListProductPage,
+  UpdateProductPage,
 }from './backend';
 
 export {
@@ -17,4 +22,9 @@ export {
   DashboardPage,
   AdminLoginPage,
   CreateUserPage,
+  ListUserPage,
+  UpdateUserPage,
+  CreateProductPage,
+  ListProductPage,
+  UpdateProductPage,
 };

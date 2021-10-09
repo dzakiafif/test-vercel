@@ -10,7 +10,7 @@ const sidebar = () => {
           </a>
         </li>
         <li className="nav-item">
-          <Link to={ADMINROUTES.USER_CREATE} className="nav-link"><span>User</span></Link>
+          <Link to={ADMINROUTES.USER_LIST} className="nav-link"><span>User</span></Link>
           {/* <a
             className="nav-link " href="/#">
             <span>Pages</span>

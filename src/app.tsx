@@ -7,6 +7,11 @@ import {
   DashboardPage,
   AdminLoginPage,
   CreateUserPage,
+  ListUserPage,
+  UpdateUserPage,
+  CreateProductPage,
+  ListProductPage,
+  UpdateProductPage,
 } from 'pages';
 import { AppBackend } from 'appBackend';
 
@@ -38,6 +43,37 @@ const App = () => {
             <CreateUserPage />
           </AppBackend>
         </Route>
+
+        <Route exact path={ADMINROUTES.USER_LIST}>
+          <AppBackend>
+            <ListUserPage />
+          </AppBackend>
+        </Route>
+
+        <Route exact path={ADMINROUTES.USER_UPDATE}>
+          <AppBackend>
+            <UpdateUserPage />
+          </AppBackend>
+        </Route>
+
+        <Route exact path={ADMINROUTES.PRODUCT_CREATE}>
+          <AppBackend>
+            <CreateProductPage />
+          </AppBackend>
+        </Route>
+
+        <Route exact path={ADMINROUTES.PRODUCT_LIST}>
+          <AppBackend>
+            <ListProductPage />
+          </AppBackend>
+        </Route>
+
+        <Route exact path={ADMINROUTES.PRODUCT_UPDATE}>
+          <AppBackend>
+            <UpdateProductPage />
+          </AppBackend>
+        </Route>
+
       </Switch>
     </Router>
   );

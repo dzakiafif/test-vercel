@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { FC, ReactNode } from 'react';
 
-type ButtonType = 'submit' | 'reset';
+type ButtonType = 'submit' | 'reset' | 'button';
 
 interface ButtonProps {
   onClick?: () => void;
