@@ -72,7 +72,6 @@ const ListProductPage = () => {
         const result: any = await deleteProductService.delete(id, {
           headers: { authorization: `Bearer ${token}` },
         });
-        console.log(result);
         if (result.status === 'success') {
           history.push(ADMINROUTES.PRODUCT_LIST);
         }
