@@ -16,6 +16,9 @@ import {
   CreateCategoryPage,
   ListCategoryPage,
   UpdateCategoryPage,
+  CreateProductInventoriesPage,
+  ListProductInventoriesPage,
+  UpdateProductInventoriesPage,
 }from './backend';
 
 export {
@@ -33,4 +36,7 @@ export {
   CreateCategoryPage,
   ListCategoryPage,
   UpdateCategoryPage,
+  CreateProductInventoriesPage,
+  UpdateProductInventoriesPage,
+  ListProductInventoriesPage
 };

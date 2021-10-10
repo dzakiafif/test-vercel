@@ -9,6 +9,9 @@ import ListProductPage from './product/list-product';
 import CreateCategoryPage from './category/create-category';
 import ListCategoryPage from './category/list-category';
 import UpdateCategoryPage from './category/update-category';
+import CreateProductInventoriesPage from './product-inventories/create-product-inventories';
+import ListProductInventoriesPage from './product-inventories/list-product-inventories';
+import UpdateProductInventoriesPage from './product-inventories/update-product-inventories';
 
 export {
   DashboardPage,
@@ -22,4 +25,7 @@ export {
   CreateCategoryPage,
   ListCategoryPage,
   UpdateCategoryPage,
+  CreateProductInventoriesPage,
+  ListProductInventoriesPage,
+  UpdateProductInventoriesPage
 };

@@ -16,6 +16,9 @@ const sidebar = () => {
         <li className="nav-item">
           <Link to={ADMINROUTES.PRODUCT_LIST} className="nav-link"><span>Product</span></Link>
         </li>
+        <li className="nav-item">
+          <Link to={ADMINROUTES.PRODUCT_INVENTORIES_LIST} className="nav-link"><span>Product Inventories</span></Link>
+        </li>
       </ul>
   );
 };
