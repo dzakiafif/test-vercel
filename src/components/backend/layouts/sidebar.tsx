@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ADMINROUTES } from "routes";
 
-const sidebar = () => {
+const Sidebar = () => {
   return (
       <ul className="sidebar navbar-nav">
         <li className="nav-item active">
@@ -19,8 +19,11 @@ const sidebar = () => {
         <li className="nav-item">
           <Link to={ADMINROUTES.PRODUCT_INVENTORIES_LIST} className="nav-link"><span>Product Inventories</span></Link>
         </li>
+        <li className="nav-item">
+          <Link to={ADMINROUTES.PRODUCT_IMAGES_LIST} className="nav-link"><span>Product Images</span></Link>
+        </li>
       </ul>
   );
 };
 
-export default sidebar;
+export default Sidebar;
